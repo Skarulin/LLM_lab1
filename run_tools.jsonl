@@ -1,0 +1,15 @@
+{"ts": "2026-11-08T08:18:02.298314+00:00", "event": "tool_request_start", "query": "Найди ноутбуки дешевле 70 000 рублей"}
+{"ts": "2026-11-08T08:18:02.822199+00:00", "event": "tool_args_validated", "query": "Найди ноутбуки дешевле 70 000 рублей", "args": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:18:02.824677+00:00", "event": "tool_search_done", "query": "Найди ноутбуки дешевле 70 000 рублей", "found": 3}
+{"ts": "2026-11-08T08:18:02.824796+00:00", "event": "tool_request_start", "query": "Покажи самые дорогие смартфоны"}
+{"ts": "2026-11-08T08:18:03.191582+00:00", "event": "tool_args_validated", "query": "Покажи самые дорогие смартфоны", "args": {"category": "smartphone", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:18:03.192992+00:00", "event": "tool_search_done", "query": "Покажи самые дорогие смартфоны", "found": 6}
+{"ts": "2026-11-08T08:18:03.193296+00:00", "event": "tool_request_start", "query": "Хочу посмотреть планшеты"}
+{"ts": "2026-11-08T08:18:03.521259+00:00", "event": "tool_args_validated", "query": "Хочу посмотреть планшеты", "args": {"category": "tablet", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:18:03.522842+00:00", "event": "tool_search_done", "query": "Хочу посмотреть планшеты", "found": 6}
+{"ts": "2026-11-08T08:18:03.523179+00:00", "event": "tool_request_start", "query": "Покажи ноутбуки до 50 тысяч"}
+{"ts": "2026-11-08T08:18:04.008820+00:00", "event": "tool_args_validated", "query": "Покажи ноутбуки до 50 тысяч", "args": {"category": "laptop", "max_price": 50000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:18:04.010240+00:00", "event": "tool_search_done", "query": "Покажи ноутбуки до 50 тысяч", "found": 0}
+{"ts": "2026-11-08T08:18:04.010603+00:00", "event": "tool_request_start", "query": "Найди холодильники"}
+{"ts": "2026-11-08T08:18:04.647597+00:00", "event": "tool_args_validated", "query": "Найди холодильники", "args": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:18:04.648532+00:00", "event": "tool_search_done", "query": "Найди холодильники", "found": 0}

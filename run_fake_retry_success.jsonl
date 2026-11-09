@@ -1,0 +1,11 @@
+{"ts": "2026-11-08T08:17:32.724088+00:00", "event": "request_start", "query": "Ноутбуки до 70 тысяч"}
+{"ts": "2026-11-08T08:17:32.729612+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:32.729939+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.0, "usage": null, "content_len": 43}
+{"ts": "2026-11-08T08:17:32.730164+00:00", "event": "parse_error", "attempt": 1, "error_type": "OutputParserException", "cause_type": "ValidationError", "error": "Failed to parse ProductQuery from completion {\"category\": \"laptop\", \"max_price\": \"oops\"}. Got: 1 validation error for ProductQuery\nmax_price\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='oops', input_type=str]\n    For further information visi"}
+{"ts": "2026-11-08T08:17:32.730481+00:00", "event": "llm_start", "attempt": 2, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:32.730595+00:00", "event": "llm_end", "attempt": 2, "latency_s": 0.0, "usage": null, "content_len": 66}
+{"ts": "2026-11-08T08:17:32.730730+00:00", "event": "parse_ok", "attempt": 2, "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:32.731135+00:00", "event": "params_validated", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:32.731187+00:00", "event": "search_start", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:32.731540+00:00", "event": "search_done", "status": "ok", "found": 3, "search_call": 1}
+{"ts": "2026-11-08T08:17:32.731625+00:00", "event": "request_done", "query": "Ноутбуки до 70 тысяч", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}, "found": 3}

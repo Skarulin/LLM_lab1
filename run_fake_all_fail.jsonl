@@ -1,0 +1,11 @@
+{"ts": "2026-11-08T08:17:32.734299+00:00", "event": "request_start", "query": "Холодильники"}
+{"ts": "2026-11-08T08:17:32.735641+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:32.735817+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.0, "usage": null, "content_len": 8}
+{"ts": "2026-11-08T08:17:32.735991+00:00", "event": "parse_error", "attempt": 1, "error_type": "OutputParserException", "cause_type": "JSONDecodeError", "error": "Invalid json output: not json\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE "}
+{"ts": "2026-11-08T08:17:32.736266+00:00", "event": "llm_start", "attempt": 2, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:32.736372+00:00", "event": "llm_end", "attempt": 2, "latency_s": 0.0, "usage": null, "content_len": 66}
+{"ts": "2026-11-08T08:17:32.736504+00:00", "event": "parse_error", "attempt": 2, "error_type": "OutputParserException", "cause_type": "ValidationError", "error": "Failed to parse ProductQuery from completion {\"category\": \"fridge\", \"max_price\": 70000, \"sort_by\": \"price_asc\"}. Got: 1 validation error for ProductQuery\ncategory\n  Input should be 'laptop', 'smartphone', 'tablet' or 'other' [type=literal_error, input_value='fridge', input_type=str]\n    For further "}
+{"ts": "2026-11-08T08:17:32.736759+00:00", "event": "llm_start", "attempt": 3, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:32.736861+00:00", "event": "llm_end", "attempt": 3, "latency_s": 0.0, "usage": null, "content_len": 65}
+{"ts": "2026-11-08T08:17:32.736986+00:00", "event": "parse_error", "attempt": 3, "error_type": "OutputParserException", "cause_type": "ValidationError", "error": "Failed to parse ProductQuery from completion {\"category\": \"laptop\", \"max_price\": -100, \"sort_by\": \"price_asc\"}. Got: 1 validation error for ProductQuery\nmax_price\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=-100, input_type=int]\n    For further information visi"}
+{"ts": "2026-11-08T08:17:32.737086+00:00", "event": "retry_exhausted", "query": "Холодильники", "attempts": 3, "error_type": "OutputParserException"}

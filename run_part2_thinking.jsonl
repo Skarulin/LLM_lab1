@@ -1,0 +1,20 @@
+{"ts": "2026-11-08T08:15:27.576441+00:00", "event": "request_start", "query": "Хочу что-нибудь недорогое для учёбы"}
+{"ts": "2026-11-08T08:15:27.581348+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:15:27.955829+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.374, "usage": {"input_tokens": 589, "output_tokens": 30, "total_tokens": 619, "input_token_details": {}, "output_token_details": {}}, "content_len": 72}
+{"ts": "2026-11-08T08:15:27.957676+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:15:27.958306+00:00", "event": "request_done", "query": "Хочу что-нибудь недорогое для учёбы", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}, "found": null}
+{"ts": "2026-11-08T08:15:27.958472+00:00", "event": "request_start", "query": "Покажи ноутбуки, но чтобы не как у меня"}
+{"ts": "2026-11-08T08:15:27.959968+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:15:28.294404+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.334, "usage": {"input_tokens": 590, "output_tokens": 31, "total_tokens": 621, "input_token_details": {}, "output_token_details": {}}, "content_len": 73}
+{"ts": "2026-11-08T08:15:28.296170+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:15:28.296950+00:00", "event": "request_done", "query": "Покажи ноутбуки, но чтобы не как у меня", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}, "found": null}
+{"ts": "2026-11-08T08:15:28.300024+00:00", "event": "request_start", "query": "Хочу что-нибудь недорогое для учёбы"}
+{"ts": "2026-11-08T08:15:28.304693+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:15:30.913037+00:00", "event": "llm_end", "attempt": 1, "latency_s": 2.608, "usage": {"input_tokens": 625, "output_tokens": 269, "total_tokens": 894, "input_token_details": {}, "output_token_details": {}}, "content_len": 62}
+{"ts": "2026-11-08T08:15:30.914519+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:15:30.915276+00:00", "event": "request_done", "query": "Хочу что-нибудь недорогое для учёбы", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}, "found": null}
+{"ts": "2026-11-08T08:15:30.915591+00:00", "event": "request_start", "query": "Покажи ноутбуки, но чтобы не как у меня"}
+{"ts": "2026-11-08T08:15:30.918093+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:15:31.985904+00:00", "event": "llm_end", "attempt": 1, "latency_s": 1.067, "usage": {"input_tokens": 626, "output_tokens": 118, "total_tokens": 744, "input_token_details": {}, "output_token_details": {}}, "content_len": 62}
+{"ts": "2026-11-08T08:15:31.987600+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:15:31.988377+00:00", "event": "request_done", "query": "Покажи ноутбуки, но чтобы не как у меня", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}, "found": null}

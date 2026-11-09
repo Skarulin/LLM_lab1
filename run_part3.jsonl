@@ -1,0 +1,80 @@
+{"ts": "2026-11-08T08:17:17.408200+00:00", "event": "request_start", "query": "Найди ноутбуки дешевле 70 000 рублей"}
+{"ts": "2026-11-08T08:17:17.413586+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:17.797337+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.384, "usage": {"input_tokens": 592, "output_tokens": 36, "total_tokens": 628, "input_token_details": {}, "output_token_details": {}}, "content_len": 74}
+{"ts": "2026-11-08T08:17:17.799016+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:17.800433+00:00", "event": "params_validated", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:17.800636+00:00", "event": "search_start", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:17.803200+00:00", "event": "search_done", "status": "ok", "found": 3, "search_call": 1}
+{"ts": "2026-11-08T08:17:17.803407+00:00", "event": "request_done", "query": "Найди ноутбуки дешевле 70 000 рублей", "params": {"category": "laptop", "max_price": 70000, "sort_by": "price_asc"}, "found": 3}
+{"ts": "2026-11-08T08:17:17.803554+00:00", "event": "request_start", "query": "Покажи самые дорогие смартфоны"}
+{"ts": "2026-11-08T08:17:17.805292+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:18.158476+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.353, "usage": {"input_tokens": 585, "output_tokens": 31, "total_tokens": 616, "input_token_details": {}, "output_token_details": {}}, "content_len": 78}
+{"ts": "2026-11-08T08:17:18.160097+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "smartphone", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:18.162089+00:00", "event": "params_validated", "params": {"category": "smartphone", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:18.162532+00:00", "event": "search_start", "params": {"category": "smartphone", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:18.163150+00:00", "event": "search_done", "status": "ok", "found": 6, "search_call": 2}
+{"ts": "2026-11-08T08:17:18.163398+00:00", "event": "request_done", "query": "Покажи самые дорогие смартфоны", "params": {"category": "smartphone", "max_price": null, "sort_by": "price_desc"}, "found": 6}
+{"ts": "2026-11-08T08:17:18.163675+00:00", "event": "request_start", "query": "Хочу посмотреть планшеты"}
+{"ts": "2026-11-08T08:17:18.165585+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:18.569268+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.403, "usage": {"input_tokens": 585, "output_tokens": 30, "total_tokens": 615, "input_token_details": {}, "output_token_details": {}}, "content_len": 73}
+{"ts": "2026-11-08T08:17:18.571070+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "tablet", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.573163+00:00", "event": "params_validated", "params": {"category": "tablet", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.573521+00:00", "event": "search_start", "params": {"category": "tablet", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.574275+00:00", "event": "search_done", "status": "ok", "found": 6, "search_call": 3}
+{"ts": "2026-11-08T08:17:18.574624+00:00", "event": "request_done", "query": "Хочу посмотреть планшеты", "params": {"category": "tablet", "max_price": null, "sort_by": "price_asc"}, "found": 6}
+{"ts": "2026-11-08T08:17:18.574890+00:00", "event": "request_start", "query": "Покажи ноутбуки до 50 тысяч"}
+{"ts": "2026-11-08T08:17:18.577151+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:18.926466+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.349, "usage": {"input_tokens": 588, "output_tokens": 36, "total_tokens": 624, "input_token_details": {}, "output_token_details": {}}, "content_len": 74}
+{"ts": "2026-11-08T08:17:18.928203+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 50000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.930047+00:00", "event": "params_validated", "params": {"category": "laptop", "max_price": 50000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.930338+00:00", "event": "search_start", "params": {"category": "laptop", "max_price": 50000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:18.931113+00:00", "event": "search_done", "status": "empty", "found": 0, "search_call": 4}
+{"ts": "2026-11-08T08:17:18.931563+00:00", "event": "request_done", "query": "Покажи ноутбуки до 50 тысяч", "params": {"category": "laptop", "max_price": 50000, "sort_by": "price_asc"}, "found": 0}
+{"ts": "2026-11-08T08:17:18.931974+00:00", "event": "request_start", "query": "Найди холодильники"}
+{"ts": "2026-11-08T08:17:18.933881+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:19.148241+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.214, "usage": {"input_tokens": 583, "output_tokens": 12, "total_tokens": 595, "input_token_details": {}, "output_token_details": {}}, "content_len": 25}
+{"ts": "2026-11-08T08:17:19.149882+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.151628+00:00", "event": "params_validated", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.151935+00:00", "event": "search_start", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.152141+00:00", "event": "search_done", "status": "unsupported_category", "found": 0, "search_call": 5}
+{"ts": "2026-11-08T08:17:19.152448+00:00", "event": "request_done", "query": "Найди холодильники", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}, "found": 0}
+{"ts": "2026-11-08T08:17:19.152685+00:00", "event": "request_start", "query": "Хочу что-нибудь недорогое для учёбы"}
+{"ts": "2026-11-08T08:17:19.154903+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:19.590603+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.435, "usage": {"input_tokens": 589, "output_tokens": 30, "total_tokens": 619, "input_token_details": {}, "output_token_details": {}}, "content_len": 72}
+{"ts": "2026-11-08T08:17:19.592163+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.594077+00:00", "event": "params_validated", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.594574+00:00", "event": "search_start", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.594937+00:00", "event": "search_done", "status": "unsupported_category", "found": 0, "search_call": 6}
+{"ts": "2026-11-08T08:17:19.595294+00:00", "event": "request_done", "query": "Хочу что-нибудь недорогое для учёбы", "params": {"category": "other", "max_price": null, "sort_by": "price_asc"}, "found": 0}
+{"ts": "2026-11-08T08:17:19.595586+00:00", "event": "request_start", "query": "Покажи ноутбуки, но чтобы не как у меня"}
+{"ts": "2026-11-08T08:17:19.597594+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:19.934986+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.337, "usage": {"input_tokens": 590, "output_tokens": 31, "total_tokens": 621, "input_token_details": {}, "output_token_details": {}}, "content_len": 73}
+{"ts": "2026-11-08T08:17:19.936352+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.938146+00:00", "event": "params_validated", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.938405+00:00", "event": "search_start", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:19.939136+00:00", "event": "search_done", "status": "ok", "found": 6, "search_call": 7}
+{"ts": "2026-11-08T08:17:19.939435+00:00", "event": "request_done", "query": "Покажи ноутбуки, но чтобы не как у меня", "params": {"category": "laptop", "max_price": null, "sort_by": "price_asc"}, "found": 6}
+{"ts": "2026-11-08T08:17:19.939709+00:00", "event": "request_start", "query": "Смартфоны дешевле 30 тысяч"}
+{"ts": "2026-11-08T08:17:19.941793+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:20.295440+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.353, "usage": {"input_tokens": 587, "output_tokens": 36, "total_tokens": 623, "input_token_details": {}, "output_token_details": {}}, "content_len": 78}
+{"ts": "2026-11-08T08:17:20.297125+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "smartphone", "max_price": 30000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:20.299068+00:00", "event": "params_validated", "params": {"category": "smartphone", "max_price": 30000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:20.299415+00:00", "event": "search_start", "params": {"category": "smartphone", "max_price": 30000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:20.300156+00:00", "event": "search_done", "status": "ok", "found": 3, "search_call": 8}
+{"ts": "2026-11-08T08:17:20.300592+00:00", "event": "request_done", "query": "Смартфоны дешевле 30 тысяч", "params": {"category": "smartphone", "max_price": 30000, "sort_by": "price_asc"}, "found": 3}
+{"ts": "2026-11-08T08:17:20.301018+00:00", "event": "request_start", "query": "Самые дорогие планшеты"}
+{"ts": "2026-11-08T08:17:20.303079+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:20.716970+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.414, "usage": {"input_tokens": 585, "output_tokens": 30, "total_tokens": 615, "input_token_details": {}, "output_token_details": {}}, "content_len": 74}
+{"ts": "2026-11-08T08:17:20.718513+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "tablet", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:20.720471+00:00", "event": "params_validated", "params": {"category": "tablet", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:20.720828+00:00", "event": "search_start", "params": {"category": "tablet", "max_price": null, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:20.721613+00:00", "event": "search_done", "status": "ok", "found": 6, "search_call": 9}
+{"ts": "2026-11-08T08:17:20.721968+00:00", "event": "request_done", "query": "Самые дорогие планшеты", "params": {"category": "tablet", "max_price": null, "sort_by": "price_desc"}, "found": 6}
+{"ts": "2026-11-08T08:17:20.722243+00:00", "event": "request_start", "query": "Ноутбуки до 90 тысяч"}
+{"ts": "2026-11-08T08:17:20.724396+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 3}
+{"ts": "2026-11-08T08:17:21.081798+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.357, "usage": {"input_tokens": 586, "output_tokens": 36, "total_tokens": 622, "input_token_details": {}, "output_token_details": {}}, "content_len": 74}
+{"ts": "2026-11-08T08:17:21.083448+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 90000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:21.085340+00:00", "event": "params_validated", "params": {"category": "laptop", "max_price": 90000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:21.085662+00:00", "event": "search_start", "params": {"category": "laptop", "max_price": 90000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:21.086643+00:00", "event": "search_done", "status": "ok", "found": 5, "search_call": 10}
+{"ts": "2026-11-08T08:17:21.087181+00:00", "event": "request_done", "query": "Ноутбуки до 90 тысяч", "params": {"category": "laptop", "max_price": 90000, "sort_by": "price_asc"}, "found": 5}

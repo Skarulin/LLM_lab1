@@ -1,0 +1,24 @@
+{"ts": "2026-11-08T08:17:43.219031+00:00", "event": "state_turn_start", "utterance": "Покажи ноутбуки до 80 тысяч", "current": "null"}
+{"ts": "2026-11-08T08:17:43.225513+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:43.642981+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.417, "usage": {"input_tokens": 517, "output_tokens": 41, "total_tokens": 558, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:43.645060+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:43.645399+00:00", "event": "state_updated", "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:43.646478+00:00", "event": "state_turn_start", "utterance": "А сначала дорогие?", "current": "{\"category\":\"laptop\",\"max_price\":80000,\"sort_by\":\"price_asc\"}"}
+{"ts": "2026-11-08T08:17:43.647807+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:43.990435+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.342, "usage": {"input_tokens": 525, "output_tokens": 36, "total_tokens": 561, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:43.992043+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:43.992562+00:00", "event": "state_updated", "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:43.993503+00:00", "event": "state_turn_start", "utterance": "А что есть среди смартфонов?", "current": "{\"category\":\"laptop\",\"max_price\":80000,\"sort_by\":\"price_desc\"}"}
+{"ts": "2026-11-08T08:17:43.995270+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:44.348188+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.353, "usage": {"input_tokens": 531, "output_tokens": 36, "total_tokens": 567, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:44.349834+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "smartphone", "max_price": 80000, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:44.350409+00:00", "event": "state_updated", "params": {"category": "smartphone", "max_price": 80000, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:44.355644+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:44.708914+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.353, "usage": {"input_tokens": 470, "output_tokens": 41, "total_tokens": 511, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:44.711272+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_asc"}}
+{"ts": "2026-11-08T08:17:44.714175+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:45.037159+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.323, "usage": {"input_tokens": 495, "output_tokens": 36, "total_tokens": 531, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:45.038755+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "laptop", "max_price": 80000, "sort_by": "price_desc"}}
+{"ts": "2026-11-08T08:17:45.041561+00:00", "event": "llm_start", "attempt": 1}
+{"ts": "2026-11-08T08:17:45.363181+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.321, "usage": {"input_tokens": 538, "output_tokens": 31, "total_tokens": 569, "input_token_details": {}, "output_token_details": {}}}
+{"ts": "2026-11-08T08:17:45.364949+00:00", "event": "parse_ok", "attempt": 1, "params": {"category": "smartphone", "max_price": null, "sort_by": "price_asc"}}

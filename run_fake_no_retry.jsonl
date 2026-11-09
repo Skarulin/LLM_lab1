@@ -1,0 +1,5 @@
+{"ts": "2026-11-08T08:17:32.732143+00:00", "event": "request_start", "query": "Ноутбуки до 70 тысяч"}
+{"ts": "2026-11-08T08:17:32.733443+00:00", "event": "llm_start", "attempt": 1, "max_attempts": 1}
+{"ts": "2026-11-08T08:17:32.733605+00:00", "event": "llm_end", "attempt": 1, "latency_s": 0.0, "usage": null, "content_len": 43}
+{"ts": "2026-11-08T08:17:32.733745+00:00", "event": "parse_error", "attempt": 1, "error_type": "OutputParserException", "cause_type": "ValidationError", "error": "Failed to parse ProductQuery from completion {\"category\": \"laptop\", \"max_price\": \"oops\"}. Got: 1 validation error for ProductQuery\nmax_price\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='oops', input_type=str]\n    For further information visi"}
+{"ts": "2026-11-08T08:17:32.733841+00:00", "event": "retry_exhausted", "query": "Ноутбуки до 70 тысяч", "attempts": 1, "error_type": "OutputParserException"}
